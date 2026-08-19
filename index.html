@@ -30,7 +30,7 @@
     </div>
     <button class="nav-btn active" data-view="habitual">📋 Vista Habitual</button>
     <button class="nav-btn" data-view="completa">🛠️ Vista Completa</button>
-    <button class="nav-btn" data-view="info">ℹ️ Información</button>
+    <button class="nav-btn" data-view="info">📜 Información</button>
   </aside>
   <div class="overlay" id="overlay"></div>
 
@@ -38,7 +38,7 @@
     <section id="habitual" class="view active">
       <div class="hero">
         <div>
-          <p class="eyebrow">OFFICIAL WORKSHOP TOOL</p>
+          <p class="eyebrow">OFFICIAL GROTTI TOOL</p>
           <h1>Calculadora del Taller</h1>
           <p>Calcula reparaciones y servicios de Grotti de forma rápida y precisa.</p>
         </div>
@@ -144,29 +144,30 @@
 
     <section id="info" class="view info-view">
       <div class="hero">
-        <div><p class="eyebrow">GROTTI MOTORSPORT</p><h1>Información</h1><p>Herramienta interna para el cálculo de servicios del taller.</p></div>
+        <div><p class="eyebrow">GROTTI</p><h1>Información</h1><p>Herramienta interna para el cálculo de servicios del taller.</p></div>
       </div>
       <div class="info-grid">
         <article class="info-card large">
           <h2>Cómo utilizar la calculadora</h2>
           <ol>
             <li>Busca el servicio que vas a realizar.</li>
-            <li>Introduce la cantidad de unidades.</li>
+            <li>Introduce la cantidad de unidades correspondientes.</li>
             <li>El total se calcula automáticamente.</li>
-            <li>Usa los descuentos únicamente cuando correspondan.</li>
+            <li>Los descuentos solo pueden aplicarse cuando correspondan y estén autorizados.</li>
             <li>Pulsa <b>COPIAR MONTO</b> para copiar el total final.</li>
           </ol>
         </article>
         <article class="info-card large">
           <h2>Precios</h2>
-          <p>Los precios están configurados con los mismos valores de la calculadora de referencia de Benny's proporcionada.</p>
-          <p class="notice">Si Grotti cambia una tarifa, solo hay que editarla en <code>script.js</code>.</p>
+          <p>Los precios configurados en esta herramienta corresponden a los valores establecidos para los <b>negocios/talleres de origen RP</b> y deben respetarse según la normativa vigente.
+            Si Grotti Motorsport modifica alguna tarifa, esta deberá actualizarse de acuerdo con la normativa correspondiente.</p>
+          <p class="notice"> <b>Importante:</b> Ante cualquier duda sobre un precio, descuento o condición especial, consulta con un superior antes de realizar el cobro.</p>
         </article>
       </div>
     </section>
   </main>
 
-  <footer>GROTTI • WORKSHOP & MOTORSPORT <span>ITALIA • PERFORMANCE • PRECISION</span></footer>
+  <footer>GROTTI • TALLER & COMPRA Y VENTA <span>ITALIA • PERFORMANCE • PRECISION</span></footer>
   <div class="toast" id="toast">Monto copiado.</div>
   <script src="script.js"></script>
 </body>
