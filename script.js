@@ -24,7 +24,7 @@ const full = [
   ["Neumáticos","Slick",4000,7000],
   ["Neumáticos","Semi-Slick",3500,7000],
   ["Neumáticos","Offroad",4500,7000],
-  ["Extras","Stance o suspensión",3000,10000],
+  ["Extras","Stance o suspensión",35000,35000],
   ["Extras","Extras",4000,10000]
 ];
 
